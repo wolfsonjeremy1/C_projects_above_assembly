@@ -1,3 +1,6 @@
+// Author: Jeremy Wolfson
+// Contributions: Mark Short
+
 #include <stdint.h>
 #include <stdbool.h>
 #include <stdio.h>
@@ -71,7 +74,7 @@ void init_uart1() {
     configure_uart1();
 }
 
-// === I²C ===
+// === IÂ²C ===
 void reset_iic() {
     SLCR_UNLOCK = 0xDF0D;
     SLCR_IIC_RST = 0x3;
@@ -156,7 +159,7 @@ void display_temperature(uint8_t temp) {
     if (temp > 255) temp = 255;
     display_on_7_seg(temp);
     char buffer[64];
-    sprintf(buffer, "Display Temp: %u°C\r\n", temp);
+    sprintf(buffer, "Display Temp: %uÂ°C\r\n", temp);
     uart1_putstr(buffer);
 }
 
