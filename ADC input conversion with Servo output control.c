@@ -1,4 +1,6 @@
-﻿#include <stdint.h>
+// Author: Jeremy Wolfson
+
+#include <stdint.h>
 #include "sleep.h"
 // For delay functions
 #include <stdint.h>
