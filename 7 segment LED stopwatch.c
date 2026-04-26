@@ -1,9 +1,6 @@
-// Jeremy Wolfson
-// 30JUN2025
-// Code based on code found on realdigital.org site and produced in part by Microsoft Copilot
-///
-///
-////////////////////
+// Author: Jeremy Wolfson
+// Contributions: Ana Carlos
+
 #include <stdint.h> // For specific integer types
 #include "sleep.h"   // For delay functions
 #include <stdio.h>  // For input/output functions
